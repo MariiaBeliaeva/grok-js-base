@@ -1,5 +1,4 @@
 /*
-
 Создайте функцию, которая принимает в качестве аргументов массив строк,
 а возвращает первый самый длинный элемент массива.
 Если входной массив пуст, функция возвращает null.
@@ -8,12 +7,17 @@
 Для начала пропиши аргументы функции.  
 
 Пример: [ 'one', 'two', 'three' ] => 'three'
-
 */
 
-const longestString = () => {
-    /* Тут код*/
+const longestString = (array) => {
+  if (array.length === 0) {
+    return null;
+  } else {
+    array.sort(function (a, b) {
+      return b.length - a.length;
+    });
+    return arr[0];
+  }
+};
 
-}
-
-module.exports = longestString
+module.exports = longestString;

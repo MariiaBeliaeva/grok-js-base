@@ -7,9 +7,8 @@
 Пример: 'web_development' => 'webDevelopment'
 */
 
-const camelCase = () => {
-    /* Тут код*/
+const camelCase = (string) => {
+  string.replace;
+};
 
-}
-
-module.exports = camelCase
+module.exports = camelCase;

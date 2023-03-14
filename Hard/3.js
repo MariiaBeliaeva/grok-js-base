@@ -8,7 +8,10 @@
 */
 
 const camelCase = (string) => {
-  string.replace;
+  let newSring = "";
+  let upperLetter = string.letter(/_/g + 1).toUpperCase();
+  string.replace(/_/g, "");
+  newSring = string.join("");
 };
 
 module.exports = camelCase;

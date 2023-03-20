@@ -16,7 +16,7 @@ const longestString = (array) => {
     array.sort(function (a, b) {
       return b.length - a.length;
     });
-    return arr[0];
+    return array[0];
   }
 };
 
